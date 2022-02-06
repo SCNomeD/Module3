@@ -6,10 +6,13 @@ namespace Module3
     {
         static void Main(string[] args)
         {
-            string MyName;
-            MyName = "Владимир";
+            const string MyName = "Владимир";
 
             Console.WriteLine(MyName);
+
+            Console.WriteLine("\tПривет, мир");
+            Console.WriteLine("\tМне 30 лет");
+            Console.WriteLine("\tМое имя \n Владимир");
 
             Console.ReadKey();
         }
