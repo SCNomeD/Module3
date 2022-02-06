@@ -51,8 +51,12 @@ namespace Module3
         //    double result = five / two;
         //    Console.WriteLine("5 / 2 = {0}", result);
         //    Console.ReadKey();
-            double result = 5.0 / 2.0;
-            Console.WriteLine("5 / 2 = {0}", result);
+        //    double result = 5.0 / 2.0;
+        //    Console.WriteLine("5 / 2 = {0}", result);
+        //    Console.ReadKey();
+
+            double result = 10 % 3;
+            Console.Write("10 % 3 = {0} ", result);
             Console.ReadKey();
         }
     }
