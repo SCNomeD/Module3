@@ -13,6 +13,10 @@ namespace Module3
             Console.WriteLine("\tПривет, мир");
             Console.WriteLine("\tМне 30 лет");
             Console.WriteLine("\tМое имя \n Владимир");
+            Console.WriteLine("\u0040");
+            Console.WriteLine("\u0023");
+            Console.WriteLine("\x40");
+            Console.WriteLine("\x23");
 
             Console.ReadKey();
         }
