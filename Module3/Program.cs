@@ -6,38 +6,49 @@ namespace Module3
     {
         static void Main(string[] args)
         {
-            const string MyName = "Владимир";
-            const byte MyAge = 30;
-            const bool Pet = false;
-            const double Size = 42.5;
+        //    const string MyName = "Владимир";
+        //    const byte MyAge = 30;
+        //    const bool Pet = false;
+        //    const double Size = 42.5;
 
+        //    Console.WriteLine("Меня зовут {0}", MyName);
+        //    Console.WriteLine("Мне {0} лет", MyAge);
+        //    Console.WriteLine("У вас есть домашнее животное? {0}", Pet);
+        //    Console.WriteLine("Мой размер обуви {0}", Size);
+
+        //    Console.WriteLine("IntMin {0} ", int.MinValue);
+        //    Console.WriteLine("IntMax {0} ", int.MaxValue);
+        //    Console.WriteLine("DoubleMin {0} ", double.MinValue);
+        //    Console.WriteLine("DoubleMax {0} ", double.MaxValue);
+
+        //    Console.ReadKey();
+        //}
+        //enum DaysOfWeek : byte
+        //{
+        //    Monday = 1,
+        //    Tuesday,
+        //    Wednesday,
+        //    Thursday,
+        //    Friday,
+        //    Saturday,
+        //    Sunday
+        //}
+        //enum Semaphore
+        //{
+        //    Red = 100,
+        //    Yellow = 200,
+        //    Green = 300
+        //}
+            string MyName = "Владимир";
+            string age = "30";
+            Console.WriteLine("Привет, мир");
+            Console.WriteLine();
+            //Console.WriteLine("Меня зовут " + MyName);
+            //Console.WriteLine($"Меня зовут {MyName}");
             Console.WriteLine("Меня зовут {0}", MyName);
-            Console.WriteLine("Мне {0} лет", MyAge);
-            Console.WriteLine("У вас есть домашнее животное? {0}", Pet);
-            Console.WriteLine("Мой размер обуви {0}", Size);
-
-            Console.WriteLine("IntMin {0} ", int.MinValue);
-            Console.WriteLine("IntMax {0} ", int.MaxValue);
-            Console.WriteLine("DoubleMin {0} ", double.MinValue);
-            Console.WriteLine("DoubleMax {0} ", double.MaxValue);
+            Console.WriteLine($"Мой возраст {age}");
 
             Console.ReadKey();
-        }
-        enum DaysOfWeek : byte
-        {
-            Monday = 1,
-            Tuesday,
-            Wednesday,
-            Thursday,
-            Friday,
-            Saturday,
-            Sunday
-        }
-        enum Semaphore
-        {
-            Red = 100,
-            Yellow = 200,
-            Green = 300
         }
     }
 
