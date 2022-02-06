@@ -16,8 +16,13 @@ namespace Module3
             Console.WriteLine("У вас есть домашнее животное? {0}", Pet);
             Console.WriteLine("Мой размер обуви {0}", Size);
 
+            Console.WriteLine("IntMin {0} ", int.MinValue);
+            Console.WriteLine("IntMax {0} ", int.MaxValue);
+            Console.WriteLine("DoubleMin {0} ", double.MinValue);
+            Console.WriteLine("DoubleMax {0} ", double.MaxValue);
 
             Console.ReadKey();
         }
     }
+
 }
