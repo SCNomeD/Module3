@@ -23,6 +23,22 @@ namespace Module3
 
             Console.ReadKey();
         }
+        enum DaysOfWeek : byte
+        {
+            Monday = 1,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday
+        }
+        enum Semaphore
+        {
+            Red = 100,
+            Yellow = 200,
+            Green = 300
+        }
     }
 
 }
