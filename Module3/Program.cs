@@ -73,9 +73,9 @@ namespace Module3
             Console.Write("Введите свое имя: ");
             string name = Console.ReadLine();
             Console.Write("Введите свой возраст: ");
-            byte age = checked ((byte) int.Parse(Console.ReadLine()));
+            var age = int.Parse(Console.ReadLine());
             Console.Write("Введите любимый день недели: ");
-            DaysOfWeek day = (DaysOfWeek) int.Parse(Console.ReadLine());
+            var day = (DaysOfWeek) int.Parse(Console.ReadLine());
             Console.WriteLine("Ваше имя {0} и Ваш возраст {1}. Ваш любимый день недели {2}", name, age, day);
             Console.ReadKey();
         }
