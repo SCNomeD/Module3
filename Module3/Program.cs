@@ -59,10 +59,35 @@ namespace Module3
             //Console.Write("10 % 3 = {0} ", result);
             //Console.ReadKey();
 
+            //Console.Write("Введите свой возраст: ");
+            //int age = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Ваш возраст {0} ", age);
+            //Console.ReadKey();
+
+            //Console.Write("Введите свой возраст: ");
+            //int age;
+            //bool iscorrect = int.TryParse(Console.ReadLine(), out age);
+            //Console.WriteLine("Ваш возраст {0} ", age);
+            //Console.ReadKey();
+
+            Console.Write("Введите свое имя: ");
+            string name = Console.ReadLine();
             Console.Write("Введите свой возраст: ");
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ваш возраст {0} ", age);
+            byte age = checked ((byte) int.Parse(Console.ReadLine()));
+            Console.Write("Введите любимый день недели: ");
+            DaysOfWeek day = (DaysOfWeek) int.Parse(Console.ReadLine());
+            Console.WriteLine("Ваше имя {0} и Ваш возраст {1}. Ваш любимый день недели {2}", name, age, day);
             Console.ReadKey();
         }
+            enum DaysOfWeek : byte
+            {
+            Понедельник = 1,
+            Вторник,
+            Среда,
+            Четверг,
+            Пятница,
+            Суббота,
+            Воскресенье
+            }
     }
 }
