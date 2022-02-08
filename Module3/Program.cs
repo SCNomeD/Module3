@@ -70,13 +70,18 @@ namespace Module3
             //Console.WriteLine("Ваш возраст {0} ", age);
             //Console.ReadKey();
 
+            //var age = Convert.ToInt32(Console.ReadLine());
+
             Console.Write("Введите свое имя: ");
             string name = Console.ReadLine();
             Console.Write("Введите свой возраст: ");
             var age = int.Parse(Console.ReadLine());
-            Console.Write("Введите любимый день недели: ");
-            var day = (DaysOfWeek) int.Parse(Console.ReadLine());
-            Console.WriteLine("Ваше имя {0} и Ваш возраст {1}. Ваш любимый день недели {2}", name, age, day);
+            Console.WriteLine("Ваше имя {0} и Ваш возраст {1}.", name, age);
+            //Console.Write("Введите любимый день недели: ");
+            //var day = (DaysOfWeek) int.Parse(Console.ReadLine());
+            Console.Write("Введите дату вашего рождения: ");
+            var birthdate = Console.ReadLine();
+            Console.WriteLine("Дата вашего рождения {0}.", birthdate);
             Console.ReadKey();
         }
             enum DaysOfWeek : byte
